@@ -1,0 +1,511 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 500;
+
+}
+
+.main{
+    max-width: 100%;
+    min-height: 100%;
+    background-color: antiquewhite;
+    position: relative;
+    overflow: hidden;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.flex img{
+    width: 150px;
+    margin: 13px;
+    display: block;
+    background-color: bisque;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 13px ;
+}
+li{
+    float: left;
+}
+ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 19px;
+    margin: 0px 8px;
+    color: black;
+    transition: .4s;
+    font-weight: 900px;
+}
+
+ul li a:hover{
+color: chocolate;
+border-bottom: 1px solid chocolate;
+}
+
+.flex-two{
+   margin-top: 25px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+  
+}
+.texts{
+    width: 450px;
+    height: 400px;
+   
+    position: relative;
+}
+.margin{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+}
+
+.margin h1{
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.margin p{
+    line-height: 33px;
+    margin-top: 20px;
+    
+}
+.margin button{
+    border-radius: 7px;
+    padding: 10px;
+    width: 150px;
+    border: none;
+    background-color: tomato;
+    color: white;
+    font-weight: 800;
+    margin-top: 19px;
+    transition: .4s;
+    text-transform: capitalize;
+}
+.margin button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: black;
+    outline: 1px solid tomato;
+    outline-offset: 3px;
+}
+
+
+.image{
+    width: 450px;
+    height: 400px;
+  
+    position: relative;
+}
+.cen{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.cen img{
+    width: 500px;
+}
+
+.blue{
+        max-width: 100%;
+        min-height: 70%;
+        background-color: white;
+        position: relative;
+        overflow: hidden;
+}
+.clothes-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+   
+}
+.flexx{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flexx div{
+    position: relative;
+    width: 190px;
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgb(199, 182, 159),-2px -2px 5px rgb(199, 182, 159);
+}
+.flexx img{
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: .5s;
+}
+.flexx div:hover img{
+    transform: scale(1.5);
+}
+.featured-products{
+    max-width: 100%;
+    min-height: 100%;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+.after{
+   
+    width: 300px;
+    margin: auto;
+    position: relative;
+}
+.after::after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    left: 100;
+    background-color: tomato;
+    border-radius: 10px;
+}
+.featured-products h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+    position: relative;
+    
+}
+.flexxx{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cards{
+    width: 230px;
+    min-height: 250px;
+    position: relative;
+    overflow: hidden;
+    margin: 11px;
+    margin-top: 50px;
+    transition: .5s;
+    cursor: pointer;
+}
+.cards img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    aspect-ratio: 3/2;
+   
+}
+.cards:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 6px rgb(199, 182, 159),-1px -1px 6px rgb(199, 182, 159);
+}
+.tex p{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 12px 5px !important;
+   
+}
+
+.more-featured{
+    max-width: 100%;
+    min-height: 100%;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+.more-featured .after h1{
+    text-transform: capitalize;
+}
+.more-featured .cards{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.flexxxx{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fa-star{
+    color: gold;
+    margin: 5px 2px;
+}
+.watch-main{
+    max-width: 100%;
+    min-height: 80%;
+    background-color: antiquewhite;
+    position: relative;
+    overflow: hidden;
+}
+
+.flex-three{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+ }
+ .purple{
+
+     width: 500px;
+     height: 400px;
+    
+     position: relative;
+ }
+ .pink{
+   
+     width: 500px;
+     height: 400px;
+    
+     position: relative;
+ }
+ .margg{
+    position: absolute;
+    width: 400px;
+    top: 50%;
+    margin: 0px 16px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.margg p{
+    line-height: 40px;
+    margin: 10px 0px;
+  
+}
+.margg h3{
+    text-transform: capitalize;
+    margin: 10px 0px;
+}
+.margg h1{
+    text-transform: capitalize;
+    margin: 10px 0px;
+    font-weight: bolder;
+}
+.margg img{
+    width: 100%;
+}
+
+
+
+.mark{
+    max-width: 100%;
+    min-height: 80%;
+  
+    position: relative;
+    overflow: hidden;
+}
+
+
+.margg button{
+    border-radius: 7px;
+    padding: 10px;
+    width: 150px;
+    border: none;
+    background-color: tomato;
+    color: white;
+    font-weight: 800;
+    margin-top: 19px;
+    transition: .4s;
+    text-transform: capitalize;
+}
+.margg button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+     background-color: black;
+    outline: 1px solid tomato;
+    outline-offset: 3px;
+}
+.flex-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    flex-wrap: wrap;
+}
+.flex-cards .cardss{
+    width: 300px;
+    margin: 15px;
+    transition: .7s;
+    height: 300px;
+    box-shadow: 3px 3px 25px rgb(198, 198, 207),-3px -3px 25px rgb(198, 198, 207);
+    cursor: pointer;
+
+}
+.flex-cards .cardss:hover{
+    color: white;
+    background: rgb(125, 125, 141);
+    transform: scale(1.1);
+}
+
+.flex-cards p{
+    text-align: center;
+    line-height: 30px;
+    margin: 10px;
+}
+.flex-cards img{
+    width: 60px;
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: auto;
+
+}
+.stars{
+    display: flex;
+    margin: 10px 0px;
+    justify-content: center;
+}
+.flex-cards h4{
+    text-align: center;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin: 10px 0px;
+}
+.trademarks{
+    max-width: 100%;
+    min-height: 70%;
+    position: relative;
+    overflow: hidden;
+}
+
+.flex-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70%;
+    flex-wrap: wrap;
+}
+.flex-img img{
+    margin: 10px;
+    filter: grayscale(1);
+    transition: .8s;
+}
+
+.flex-img img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.about{
+    max-width: 100%;
+    min-height: 60%;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+.flex-last{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 70%;
+}
+.flex-last h1{
+    text-transform: capitalize;
+    margin: 10px;
+}
+
+.flex-last p{
+    text-transform: capitalize;
+    margin: 10px;
+    color: grey;
+}
+.flex-last img{
+    width: 100px;
+    margin: 15px 0px;
+}
+
+.flex-last div{
+    font-size: 12px;
+    position: relative;
+    width: 300px;
+}
+.flex-last .auto img{
+    display: block;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 480px){
+    ul{
+        display: none;
+    }
+    .flexx div{
+        width: 100%;
+        
+    }
+    .cards{
+        width: 100%;
+    }
+}
+
+@media(max-width: 414px){
+    .cen img{
+        width: 360px;
+    }
+}
+@media(max-width: 360px){
+    .margg{
+        font-size: 17px;
+        width: 290px;
+        margin: 7px;
+    }
+    .margg p{
+        font-size: 10px;
+    }
+}
+@media(max-width: 320px){
+    .margin{
+        width: 290px;
+        font-size: 13px;
+       
+    }
+    .cen img{
+        width: 330px;
+    }
+}
+
+
+@media(max-width: 280px){
+    .margin{
+        width: 270px;
+        font-size: 10px;
+       
+    }
+    .margin button{
+        width: 130px;
+        font-size: 13px;
+    }
+    .cen img{
+        width: 270px;
+    }
+}
