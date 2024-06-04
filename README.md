@@ -15,8 +15,3 @@ Clone the repository: git clone https://github.com/your-username/burger-website.
 Open the index.html file in your web browser to see the website.
 Edit the HTML and CSS files to customize the website content and styling.
 Feel free to:
-
-Add images of your delicious burgers!
-Include your menu with descriptions and prices.
-Create a contact form for customer inquiries.
-Let's make your burger website shine! ✨
